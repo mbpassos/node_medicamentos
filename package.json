@@ -1,0 +1,30 @@
+{
+  "name": "node_medicamentos",
+  "version": "1.0.0",
+  "description": "api simples de medicamentos",
+  "main": "app.js",
+  "scripts": {
+    "prod": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbpassos/node_medicamentos.git"
+  },
+  "keywords": [
+    "medicamentos"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbpassos/node_medicamentos/issues"
+  },
+  "homepage": "https://github.com/mbpassos/node_medicamentos#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
